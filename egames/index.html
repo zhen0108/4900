@@ -6,24 +6,36 @@
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <!-- Title -->
     <title>Study in China</title>
 
-    <!-- Favicon -->
+
     <link rel="icon" href="img/core-img/icon.jpg">
 
-    <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
     <style>
 		div.a{
-			position:relative
-			right:-100px;
-			width:200px;
-			height:5px;
+			position:absolute;
+			right:500px;
+			width:250px;
 			font-family:Arial;
-			text-align: right;
+			text-align: left;
+			
+		}
+		div.b{
+			position:absolute;
+			top:30px;
+			width:600px;
+			font-family:Arial;
+			font-size:10px;
+			font-style:italic;
+			text-align: center;
+			color:#AA4F50;
+			
+		}
+		img.resize {
+  			max-width:81%;
+ 			 max-height:81%;
 		}
 	</style>
 
@@ -41,11 +53,8 @@
             <div class="container h-50">
                 <div class="row h-100 align-items-center">
                     <div class="col-100 d-flex align-items-center justify-content-center">
-                        <div class="logo">
-                            <a href="index.html"><img src="img/core-img/logo.jpg" alt="bclogo"></a>
-						</div>
-						<div class="a"> <font color="red"><b>Learn</b></font> while exploring five most <font color="blue"><b>renowned</b></font> and beautiful <b>Chinese</b> Cities</div>
-                   
+						<div class="a"><a><font color="red"><strong>Learn</strong></font> while exploring five most <font color="blue"><strong>renowned</strong></font> and beautiful Chinese Cities</a></div>
+                            <div><a href="index.html"><img class="resize" src="img/core-img/logo.jpg" height="1000px" alt="bclogo"></a></div>
                     </div>
                 </div>
             </div>
@@ -109,8 +118,7 @@
                                     </li>
                                     <li><a href="contact.html">Contact</a></li>
                                 </ul>
-                            </div>
-                            <!-- Nav End -->
+							</div>
                         </div>
                     </nav>
                 </div>
@@ -119,47 +127,36 @@
     </header>
     <!-- ##### Header Area End ##### -->
 
-    <!-- ##### Hero Area Start ##### -->
-    <div class="hero-area">
-        <!-- Hero Post Slides -->
-        <div class="hero-post-slides owl-carousel">
-
-            <!-- Single Slide -->
-            <div class="single-slide bg-img bg-overlay" style="background-image: url(img/bg-img/1.jpg);">
-                <!-- Blog Content -->
-                <div class="container h-100">
-                    <div class="row h-100 align-items-center">
-                        <div class="col-12 col-lg-9">
-                            <div class="blog-content" data-animation="fadeInUp" data-delay="100ms">
-                                <h2 data-animation="fadeInUp" data-delay="400ms">The Power of Gaming</h2>
-                                <p data-animation="fadeInUp" data-delay="700ms">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique justo id elit bibendum pharetra non vitae lectus. Mauris libero felis, dapibus a ultrices sed, commodo vitae odio. Sed auctor tellus quis arcu tempus, egestas tincidunt.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- ##### Picture Area Start ##### -->
+    <div class="pic-area">
+        <!-- Picture Slides -->
+        <div class="picture-slides owl-carousel">
 
             <!-- Single Slide -->
             <div class="single-slide bg-img bg-overlay" style="background-image: url(img/bg-img/2.jpg);">
-                <!-- Blog Content -->
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-12 col-lg-9">
                             <div class="blog-content" data-animation="fadeInUp" data-delay="100ms">
-                                <h2 data-animation="fadeInUp" data-delay="400ms">The Power of Gaming</h2>
-                                <p data-animation="fadeInUp" data-delay="700ms">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique justo id elit bibendum pharetra non vitae lectus. Mauris libero felis, dapibus a ultrices sed, commodo vitae odio. Sed auctor tellus quis arcu tempus, egestas tincidunt.</p>
+                                <h2 data-animation="fadeInUp" data-delay="400ms">Introduce</h2>
+                                <p data-animation="fadeInUp" data-delay="700ms"><b>As the oldest civilization and fastest growing economy, China is a land of mystery, promise and attraction, and it is changing our world.
+This travel-and-study-in-China program, with tours to five renowned cities and multiple course offerings, provides unique opportunities for students to expand their knowledge of Chinese culture, language, history, business and economic developments.
+It is designed to help students to gain first-hand experience about Chinese culture through a combination of class meetings, seminars, and field trips to many places of historic interest and cultural importance.</b></p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-        </div>
+			<div class="single-slide bg-img bg-overlay" style="background-image: url(img/bg-img/03.jpg);">
+            </div>
+            <div class="single-slide bg-img bg-overlay" style="background-image: url(img/bg-img/04.jpg);"></div>
+			  <div class="single-slide bg-img bg-overlay" style="background-image: url(img/bg-img/05.jpg);"></div>
+			<div class="single-slide bg-img bg-overlay" style="background-image: url(img/bg-img/07.jpg);"></div>
     </div>
-    <!-- ##### Hero Area End ##### -->
+    <!-- ##### End ##### -->
 
     <!-- ##### Games Area Start ##### -->
-    <div class="games-area section-padding-100-0">
+<div class="games-area section-padding-100-0">
         <div class="container">
             <div class="row">
                 <!-- Single Games Area -->
@@ -204,7 +201,8 @@
             <div class="row">
                 <div class="col-12">
                     <!-- Title -->
-                    <h2 class="section-title mb-70 wow fadeInUp" data-wow-delay="100ms">This Month’s Pick</h2>
+                    <h2 class="section-title mb-70 wow fadeInUp" data-wow-delay="100ms"><strong>The five famous Chinese cities students will visit are:</strong><br>
+	</h2>
                 </div>
             </div>
 
@@ -212,13 +210,18 @@
                 <div class="col-12">
                     <ul class="nav nav-tabs wow fadeInUp" data-wow-delay="300ms" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="popular-tab" data-toggle="tab" href="#popular" role="tab" aria-controls="popular" aria-selected="true">Popular</a>
+                            <a class="nav-link active" id="popular-tab" data-toggle="tab" href="#popular" role="tab" aria-controls="popular" aria-selected="true">BeiJing</a>
+							
                         </li>
+                        <li class="nav-item"> <a class="nav-link" id="latest-tab" data-toggle="tab" href="#latest" role="tab" aria-controls="latest" aria-selected="false">NanJing</a> </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="latest-tab" data-toggle="tab" href="#latest" role="tab" aria-controls="latest" aria-selected="false">Latest</a>
+                            <a class="nav-link" id="editor-tab" data-toggle="tab" href="#editor" role="tab" aria-controls="editor" aria-selected="false">Shanghai</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="editor-tab" data-toggle="tab" href="#editor" role="tab" aria-controls="editor" aria-selected="false">Editor’s Pick</a>
+						 <li class="nav-item">
+                            <a class="nav-link" id="editor-tab" data-toggle="tab" href="#editor" role="tab" aria-controls="editor" aria-selected="false">Xi'An</a>
+                        </li>
+						 <li class="nav-item">
+                            <a class="nav-link" id="editor-tab" data-toggle="tab" href="#editor" role="tab" aria-controls="editor" aria-selected="false">Suzhou</a>
                         </li>
                     </ul>
                 </div>
@@ -888,13 +891,6 @@
         <div class="copywrite-content">
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
-                    <div class="col-12 col-sm-5">
-                        <!-- Copywrite Text -->
-                        <p class="copywrite-text"><a href="#"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-</p>
-                    </div>
                     <div class="col-12 col-sm-7">
                         <!-- Footer Nav -->
                         <div class="footer-nav">

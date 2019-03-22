@@ -31,7 +31,7 @@
 
     // :: 5.0 Sliders Active Code
     if ($.fn.owlCarousel) {
-        var welcomeSlide = $('.hero-post-slides');
+        var welcomeSlide = $('.picture-slides');
         var popularSlide = $('.popular-games-slideshow');
         var latestSlide = $('.latest-games-slideshow');
         var editorSlide = $('.editor-games-slideshow');
@@ -41,7 +41,7 @@
             margin: 0,
             loop: true,
             nav: true,
-            navText: ['Prev Game', 'Next Game'],
+            navText: ['Prev Picture', 'Next Picture'],
             dots: false,
             autoplay: true,
             autoplayTimeout: 7000,
