@@ -1003,11 +1003,11 @@ img {
     margin-left: 50px;
     margin-top: 30px; }
 
-/* :: 9.0 Monthly Picks Area CSS */
+
 .monthly-picks-area {
   position: relative;
   z-index: 1;
-  background-color: salmon;
+  background-color:darkslategrey;
   overflow: hidden; }
   .monthly-picks-area .nav-tabs {
     border-bottom: 2px solid #323232;
@@ -1029,7 +1029,7 @@ img {
         .monthly-picks-area .nav-tabs .nav-item .nav-link {
           padding: 0 20px;
           height: 42px;
-          line-height: 42px;
+          line-height: 50px;
           font-size: 12px; } }
 
 .single-games-slide {
@@ -1042,7 +1042,7 @@ img {
       display: block;
       margin-bottom: 10px;
       font-size: 18px; }
-      @media only screen and (max-width: 767px) {
+      @media only screen and (max-width: 800px) {
         .single-games-slide .slide-text .game-title {
           font-size: 16px; } }
       .single-games-slide .slide-text .game-title:hover, .single-games-slide .slide-text .game-title:focus {
