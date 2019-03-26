@@ -304,19 +304,19 @@ img {
   position: relative;
   z-index: 1;
   display: inline-block;
-  min-width: 160px;
+  min-width: 300px;
   height: 50px;
   color: #ffffff;
   border-radius: 0;
   padding: 0 30px;
-  font-size: 14px;
+  font-size: 30px;
   line-height: 50px;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: capitalize; }
   .egames-btn:hover, .egames-btn:focus {
     font-size: 14px;
     font-weight: 500;
-    background-color: #000000;
+    background-color:#20d8da;;
     color: #ffffff; }
 
 /* :: 4.0 Header Area CSS */
@@ -327,8 +327,9 @@ img {
   .header-area .top-header-area {
     position: relative;
     z-index: 1;
+	  background-color:white;
     width: 100%;
-    height: 85px; }
+    height: 80px; }
     .header-area .top-header-area .top-search-area {
       position: relative;
       z-index: 1; }
@@ -412,7 +413,7 @@ img {
     width: 100%;
     height: 70px; }
     .header-area .egames-main-menu .classy-navbar {
-      height: 70px;
+      height: 60px;
       padding: 0; }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .header-area .egames-main-menu .classy-navbar {
@@ -715,7 +716,7 @@ img {
       -webkit-transition-duration: 500ms;
       transition-duration: 500ms;
       width: 100%;
-      height: 100%;
+      height: 40%;
       top: 0;
       left: 0;
       content: '';
@@ -769,8 +770,8 @@ img {
     visibility: visible;
     opacity: 1; }
   .single-articles-area:hover .article-thumbnail img, .single-articles-area:focus .article-thumbnail img {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1); }
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8); }
   .single-articles-area.style-2 .article-content .post-title {
     color: #fff; }
   .single-articles-area.style-2 .article-content p {
@@ -911,7 +912,7 @@ img {
     margin-bottom: 160px; }
     .single-widget-area.add-widget .side-img {
       position: absolute;
-      bottom: -80px;
+      bottom: -600px;
       z-index: 10;
       width: 80%;
       right: -40px; }
@@ -1064,6 +1065,8 @@ img {
 
 .popular-games-slideshow,
 .latest-games-slideshow,
+.sz-games-slideshow,
+.nj-games-slideshow,
 .editor-games-slideshow {
   position: relative;
   z-index: 1; }
@@ -1071,6 +1074,10 @@ img {
   .popular-games-slideshow .owl-next,
   .latest-games-slideshow .owl-prev,
   .latest-games-slideshow .owl-next,
+  .sz-games-slideshow    .owl-prev,
+  .sz-games-slideshow    .owl-next,
+  .nj-games-slideshow    .owl-prev,
+  .nj-games-slideshow    .owl-next,
   .editor-games-slideshow .owl-prev,
   .editor-games-slideshow .owl-next {
     position: absolute;
@@ -1091,14 +1098,22 @@ img {
       .popular-games-slideshow .owl-next,
       .latest-games-slideshow .owl-prev,
       .latest-games-slideshow .owl-next,
+	   .sz-games-slideshow    .owl-prev,
+  	  .sz-games-slideshow    .owl-next,
+      .nj-games-slideshow    .owl-prev,
+      .nj-games-slideshow    .owl-next,
       .editor-games-slideshow .owl-prev,
       .editor-games-slideshow .owl-next {
-        left: 15%; } }
+		  left: 15%; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .popular-games-slideshow .owl-prev,
       .popular-games-slideshow .owl-next,
       .latest-games-slideshow .owl-prev,
       .latest-games-slideshow .owl-next,
+	  .sz-games-slideshow    .owl-prev,
+      .sz-games-slideshow    .owl-next,
+      .nj-games-slideshow    .owl-prev,
+     .nj-games-slideshow    .owl-next,
       .editor-games-slideshow .owl-prev,
       .editor-games-slideshow .owl-next {
         left: 15%; } }
@@ -1107,6 +1122,10 @@ img {
       .popular-games-slideshow .owl-next,
       .latest-games-slideshow .owl-prev,
       .latest-games-slideshow .owl-next,
+	  .sz-games-slideshow    .owl-prev,
+      .sz-games-slideshow    .owl-next,
+      .nj-games-slideshow    .owl-prev,
+      .nj-games-slideshow    .owl-next,
       .editor-games-slideshow .owl-prev,
       .editor-games-slideshow .owl-next {
         left: 5%;
@@ -1118,28 +1137,40 @@ img {
     .popular-games-slideshow .owl-next:hover,
     .latest-games-slideshow .owl-prev:hover,
     .latest-games-slideshow .owl-next:hover,
+   .sz-games-slideshow    .owl-prev:hover,
+  .sz-games-slideshow    .owl-next:hover,
+  .nj-games-slideshow    .owl-prev:hover,
+  .nj-games-slideshow    .owl-next:hover,
     .editor-games-slideshow .owl-prev:hover,
     .editor-games-slideshow .owl-next:hover {
       background-color: #20d8da;
       color: #ffffff; }
   .popular-games-slideshow .owl-next,
   .latest-games-slideshow .owl-next,
+   .sz-games-slideshow .owl-next,
+  .nj-games-slideshow .owl-next,
   .editor-games-slideshow .owl-next {
     left: auto;
     right: 22%; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .popular-games-slideshow .owl-next,
       .latest-games-slideshow .owl-next,
+		.sz-games-slideshow .owl-next,
+		.nj-games-slideshow .owl-next,
       .editor-games-slideshow .owl-next {
         right: 15%; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .popular-games-slideshow .owl-next,
       .latest-games-slideshow .owl-next,
+		.sz-games-slideshow .owl-next,
+		.nj-games-slideshow .owl-next,
       .editor-games-slideshow .owl-next {
         right: 15%; } }
     @media only screen and (max-width: 767px) {
       .popular-games-slideshow .owl-next,
       .latest-games-slideshow .owl-next,
+		.sz-games-slideshow .owl-next,
+		.nj-games-slideshow .owl-next,
       .editor-games-slideshow .owl-next {
         right: 5%; } }
 

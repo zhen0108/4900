@@ -35,6 +35,8 @@
         var popularSlide = $('.popular-games-slideshow');
         var latestSlide = $('.latest-games-slideshow');
         var editorSlide = $('.editor-games-slideshow');
+		var szSlide = $('.sz-games-slideshow');
+		var njSlide = $('.nj-games-slideshow');
 
         welcomeSlide.owlCarousel({
             items: 1,
@@ -129,6 +131,58 @@
         });
 
         editorSlide.owlCarousel({
+            items: 6,
+            margin: 30,
+            loop: true,
+            center: true,
+            nav: true,
+            navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 7000,
+            smartSpeed: 1000,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                768: {
+                    items: 3
+                },
+                992: {
+                    items: 4
+                },
+                1200: {
+                    items: 6
+                }
+            }
+        });
+        njSlide.owlCarousel({
+            items: 6,
+            margin: 30,
+            loop: true,
+            center: true,
+            nav: true,
+            navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 7000,
+            smartSpeed: 1000,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                768: {
+                    items: 3
+                },
+                992: {
+                    items: 4
+                },
+                1200: {
+                    items: 6
+                }
+            }
+        });
+		  szSlide.owlCarousel({
             items: 6,
             margin: 30,
             loop: true,
