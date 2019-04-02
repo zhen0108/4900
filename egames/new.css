@@ -17,7 +17,10 @@ div.i{
   			width: 30%;
   			padding: 2%;
 }
-
+h10{
+	font-family: "fredericka-the-great";
+	font-size:30px;
+}
 #myDIV {
  float: right;
 font-family:Arial;
