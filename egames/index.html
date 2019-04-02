@@ -10,7 +10,7 @@
     <title>Study in China</title>
 	<link rel="stylesheet" type="text/css" href="fonts/flaticon.css">
     <link rel="icon" href="img/core-img/logo.jpg">
-
+	<link rel="stylesheet" href="new.css">
     <link rel="stylesheet" href="style.css">
     <style>
 		div.a{
@@ -45,15 +45,23 @@
     	width: 79em
    		 }
 		p.a{
-			position:absolute;
 			font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-			text-align: center;
 			font-size: 20px;
 			font-style:bold;
 		}
 		img.resize {
   			max-width:81%;
  			 max-height:81%;
+		}
+		div.i{
+  			 float: left;
+  			width: 30%;
+			padding-top: 5%;
+}
+		div.o{
+			float: right;
+			width: 35%;
+			padding-top: 2%;
 		}
 	</style>
 
@@ -71,12 +79,13 @@
             <div class="container h-50">
                 <div class="row h-100 align-items-center">
                     <div class="col-100 d-flex align-items-center justify-content-center">
-						<div class="a"><a><font color="red"><strong>Learn</strong></font> while exploring five most <font color="blue"><strong>renowned</strong></font> and beautiful Chinese Cities</a></div>
-                            <div><a href="index.html"><img class="resize" src="img/core-img/logo.jpg" height="1000px" alt="bclogo"></a></div>
+						<a href="index.html"><img class="resize" src="img/core-img/logo.jpg" height="1000px" alt="bclogo"></a>
+						<div id="myDIV"><font color="red"><strong>Learn</strong></font> while exploring five most<br> <font color="blue"><strong>renowned</strong></font> and beautiful Chinese Cities</div>
+                            </div>
                     </div>
                 </div>
             </div>
-        </div>
+
         
 
         <!-- Navbar Area -->
@@ -103,7 +112,7 @@
                             <div class="classynav">
                                 <ul>
                                     <li><a href="index.html">Home</a></li>
-                                    <li><a href="#">About Us</a>
+                                    <li><a href="about.html">About</a>
                                         <ul class="dropdown">
                                             <li><a href="#">Why China</a></li>
                                             <li><a href="#">Testimonial</a></li>
@@ -112,31 +121,48 @@
                                             <li><a href="#">Host</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">Pages</a>
+                                    <li><a href="#">Program</a>
                                         <ul class="dropdown">
-                                            <li><a href="#">Home</a></li>
-                                            <li><a href="#">Articles</a></li>
-                                            <li><a href="#">Single Articles</a></li>
-                                            <li><a href="#">Game Review</a></li>
-                                            <li><a href="#">Single Game Review</a></li>
-                                            <li><a href="#">Contact</a></li>
+                                            <li><a href="#">Announcement</a></li>
+                                            <li><a href="#">Itinerary</a></li>
+                                            <li><a href="#">Coursework</a></li>
+                                            <li><a href="#">Side Trips</a></li>
+                                            <li><a href="#">Room & Board</a></li> 
                                         </ul>
                                     </li>
-                                    <li><a href="#">Articles</a>
+                                    <li><a href="#">Apply</a>
                                         <ul class="dropdown">
-                                            <li><a href="#">Articles</a></li>
-                                            <li><a href="#">Single Articles</a></li>
+                                            <li><a href="single-post.html">How to Apply</a></li>
+                                            <li><a href="#">Cost & Payment</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">Reviews</a>
+                                    <li><a href="#">Financial Aid</a>
                                         <ul class="dropdown">
-                                            <li><a href="#">Game Review</a></li>
-                                            <li><a href="#">Single Game Review</a></li>
+                                            <li><a href="#">Financial Aid</a></li>
+											<li><a href="#">Scholarships</a></li>
+                                            <li><a href="#">Student Loans</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">Contact</a></li>
+									<li><a href="#">Travel Info</a>
+                                        <ul class="dropdown">
+                                            <li><a href="#">Postport&Visa</a></li>
+                                            <li><a href="#">Trip FAQs</a></li>
+											<li><a href="#">Sabbath & Kosher Food</a></li>
+											<li><a href="#">Halal Food</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact.html">Contact</a>
+									<ul class="dropdown">
+                                            <li><a href="https://www.facebook.com/cunybc.chinaprogram"> visit our Facebook</a></li>
+                                            <li><a href="mailto:CUNYinChina@brooklyn.cuny.edu">Email us </a></li>
+                                        </ul></li>
                                 </ul>
 							</div>
+                        </div>
+						<!-- Top Social Info -->
+
+						<div class="top-social-info">
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                         </div>
                     </nav>
                 </div>
@@ -157,9 +183,9 @@
                         <div class="col-12 col-lg-9">
                             <div class="blog-content" data-animation="fadeInUp" data-delay="100ms">
                                 <h2 data-animation="fadeInUp" data-delay="400ms">Introduce</h2>
-                                <p data-animation="fadeInUp" data-delay="700ms"><b>As the oldest civilization and fastest growing economy, China is a land of mystery, promise and attraction, and it is changing our world.
-This travel-and-study-in-China program, with tours to five renowned cities and multiple course offerings, provides unique opportunities for students to expand their knowledge of Chinese culture, language, history, business and economic developments.
-It is designed to help students to gain first-hand experience about Chinese culture through a combination of class meetings, seminars, and field trips to many places of historic interest and cultural importance.</b></p>
+                                <p data-animation="fadeInUp" data-delay="700ms"><strong>As the oldest civilization and fastest growing economy, China is a land of mystery, promise and attraction, and it is changing our world.
+                                  This travel-and-study-in-China program, with tours to five renowned cities and multiple course offerings, provides unique opportunities for students to expand their knowledge of Chinese culture, language, history, business and economic developments.
+                                  It is designed to help students to gain first-hand experience about Chinese culture through a combination of class meetings, seminars, and field trips to many places of historic interest and cultural importance.</strong></p>
                             </div>
                         </div>
                     </div>
@@ -173,8 +199,6 @@ It is designed to help students to gain first-hand experience about Chinese cult
     </div>
 		</div>
     <!-- ##### End ##### -->
-
-
     <!-- ##### Monthly Picks Area Start ##### -->
     <section class="monthly-picks-area section-padding-100 bg-pattern">
         <div class="container">
@@ -190,9 +214,14 @@ It is designed to help students to gain first-hand experience about Chinese cult
                 <div class="col-12">
                     <!-- Title -->
                     <h2 class="section-title mb-70 wow fadeInUp" data-wow-delay="100ms"><strong>The five famous Chinese cities students will visit are:</strong>
-						<br></h2>
-					<h3>	<p><font color="#34CED0">The program starts with tours in Beijing and Xi’an. After the first two cities, we arrive in Nanjing where to stay for about 2 weeks (for more in-depth explorations, class sessions and side trips to Hong Kong, etc.). Then we continue with tours to Suzhou & Shanghai. After Shanghai, students fly back home.As capital of 10 ancient dynasties, Nanjing is a famous historic city by the Yangtze River, and a charming modern metropolis, with dozens of colleges and universities. It is only one hour to Shanghai by high-speed train.According to New York Times, a rising Nanjing now also thrives on youth and art.</font></p></h3>
-					<h3><p><font color="#34CED0">In Nanjing, our hotel is in the center of the city, the downtown area, right by the picturesque Xuanwu Lake-Park, next to the Hunan road shopping district--it is an area with many restaurants, coffee houses, bookstores, museums, supermarkets, shopping malls, theatres, nightclubs, luxury hotels, etc. The hotel provides all necessary conveniences (AC in summer, heat in winter, laundry service, international calls, & free WiFi). It is in the vicinity of several prestigious universities.Nanjing adds a lot of leverage to the content of our courses.  Students can visit many historic sites in the city and build connections with assigned readings: the Confucius Temple, Buddhist monastery, the Daoist temple, Imperial Examination Center, Presidential Palace, Nanjing Museum, the tomb of the Ming emperor, Museum of Taiping Kingdom of Heavenly Peace, etc.The city also occupies an important position in modern Chinese history: it was the starting point of the maritime Silk Road, and the capital of the Nationalist government before the Communists took over in 1949. As center of the most affluent province, Nanjing serves as a window to China’s miraculous economic takeoff and on-going modernization.</font></p></h3>
+						</h2>
+					<h3><p class="a"><font color="#34CED0">&nbsp &nbsp &nbsp Students will experience wide geographic differences and varied regional customs & cuisines, while learning about the uniqueness of China’s cultural renewal and modernization process. In addition, we also help organize side trips to Hong Kong, Tibet, Yangzhou, & Yellow Mountain (most beautiful mountain in the world).
+
+The program’s itinerary is closely related to the courses students study, and it is managed by professional travel agencies.
+
+In each city, we also have easy access to colleges and universities, but do not stay in student dorms as conditions in campus dorms are not what we want to have. The travel agencies always pick very nice business hotels for our group, hotels that provide excellent service, tasty meals and the comfort you will appreciate.
+
+It is a faculty-led program, offered every Summer I (June) & Winter Intersession (January) and open to all CUNY campuses and to any other U.S. colleges.</font></p></h3>
                 </div>
             </div>
 
@@ -676,8 +705,30 @@ It is designed to help students to gain first-hand experience about Chinese cult
     </section>
     <!-- ##### Monthly Picks Area End ##### -->
 
+	<section class="egames-video-area  bg-pattern2" style="background-color:whitesmoke">
+			<div class="container"  >
+				<div class="row justify-content-center">
+                <div class="col-12 col-lg-8">
+					<div class="md-100">
+						<br>
+						<h10><u>Enjoy our Stay in Nanjing:</u></h10>
+					<br>
+					<p><font color="black"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The program starts with tours in Beijing and Xi’an. After the first two cities, we arrive in Nanjing where to stay for about 2 weeks (for more in-depth explorations, class sessions and side trips to Hong Kong, etc.). Then we continue with tours to Suzhou & Shanghai. After Shanghai, students fly back home.</strong></font></p>
+						<p><font color="black"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As capital of 10 ancient dynasties, Nanjing is a famous historic city by the Yangtze River, and a charming modern metropolis, with dozens of colleges and universities. It is only one hour to Shanghai by high-speed train.According to New York Times, a rising Nanjing now also thrives on youth and art.In Nanjing, our hotel is in the center of the city, the downtown area, right by the picturesque Xuanwu Lake-Park, next to the Hunan road shopping district--it is an area with many restaurants, coffee houses, bookstores, museums, supermarkets, shopping malls, theatres, nightclubs, luxury hotels, etc. The hotel provides all necessary conveniences (AC in summer, heat in winter, laundry service, international calls, & free WiFi). It is in the vicinity of several prestigious universities.</strong></font></p>
+						<p><font color="black"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nanjing adds a lot of leverage to the content of our courses.  Students can visit many historic sites in the city and build connections with assigned readings: the Confucius Temple, Buddhist monastery, the Daoist temple, Imperial Examination Center, Presidential Palace, Nanjing Museum, the tomb of the Ming emperor, Museum of Taiping Kingdom of Heavenly Peace, etc.The city also occupies an important position in modern Chinese history: it was the starting point of the maritime Silk Road, and the capital of the Nationalist government before the Communists took over in 1949. As center of the most affluent province, Nanjing serves as a window to China’s miraculous economic takeoff and on-going modernization.</strong></font></p>
+					<br>
+						</div>
+				</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<img src="img/bg-img/020.jpg" alt="Smiley face"> 
+						<img src="img/bg-img/022.jpg" alt="bc1">
+						<img src="img/bg-img/gaotie.jpg" alt="gaotie">
+					</div>
+			</div>
+		</div>
+					</section>
     <!-- ##### Video Area Start ##### -->
-    <div class="egames-video-area section-padding-100 bg-pattern2">
+    <div class="egames-video-area  bg-pattern2">
         <div class="container">
             <div class="row no-gutters">
                 <div class="col-12 col-md-6 col-lg-4">
@@ -690,7 +741,7 @@ It is designed to help students to gain first-hand experience about Chinese cult
                                         <img src="#" alt="">
                                     </div>
                                     <div class="video-text">
-                                        <p class="video-title mb-0">#</p>
+                                        <p class="video-title mb-0">we're gonna add videos if u have some </p>
                                         <span>#</span>
                                     </div>
                                     <div class="video-rating">#</div>
@@ -891,8 +942,8 @@ It is designed to help students to gain first-hand experience about Chinese cult
                                     <a href="#" class="post-date">May 26, 2015</a>
                                     <a href="#" class="post-comments">2 Comments</a>
                               </div>
-                                <p><font color="yellow"><strong>3 and half weeks trip to 5 remarkable Chinese cities (4 of them former capitals of China), with multiple course offerings, and optional side trips to Hong Kong, and other well-known Chinese destinations.</strong></font></p>
-                            </div>
+                            <p><font color="white"><strong>3 and half weeks trip to 5 remarkable Chinese cities (4 of them former capitals of China), with multiple course offerings, and optional side trips to Hong Kong, and other well-known Chinese destinations.</strong></font></p>
+                          </div>
                         </div>
 
                         <!-- *** Single Articles Area *** -->
@@ -906,7 +957,7 @@ It is designed to help students to gain first-hand experience about Chinese cult
                                     <a href="#" class="post-date">Tuesday, May 20, 2014 at 12:00 PM – 1:30 PM EDT</a>
 								  <a href="#" class="post-comments"> <br>2 Comments</a>
                                 </div>
-                                <p><font color="yellow"><strong>This is an open house information session for our Winter Study in China trip. If you or a friend are interested in studying abroad, please attend. We will travel as a group to 5 renowned Chinese cities! Plus side trips to Hong Kong &amp; other famous places!</strong></font></p>
+                                <p><font color="white"><strong>This is an open house information session for our Winter Study in China trip. If you or a friend are interested in studying abroad, please attend. We will travel as a group to 5 renowned Chinese cities! Plus side trips to Hong Kong &amp; other famous places!</strong></font></p>
                             </div>
                         </div>
                     </div>
@@ -919,8 +970,6 @@ It is designed to help students to gain first-hand experience about Chinese cult
                     <!-- Single Widget Area -->
                     <div class="single-widget-area add-widget wow fadeInUp" data-wow-delay="300ms">
                         <li>#</li>
-                        <!-- Side Img -->
-                        <img src="img/core-img/logo.jpg" class="side-img" alt="">
                     </div>
                 </div>
             </div>
