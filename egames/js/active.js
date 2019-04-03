@@ -182,7 +182,7 @@
                 }
             }
         });
-		  szSlide.owlCarousel({
+		 szSlide.owlCarousel({
             items: 6,
             margin: 30,
             loop: true,
