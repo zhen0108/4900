@@ -84,3 +84,55 @@ background-size: 100% 1.2em;
 @keyframes action {
   50% {box-shadow: 10px 20px 30px black;}
 }
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+.firstsection{
+background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+.mycontainer,.mypanel{
+	padding:0.01em 16px;
+}
+.mypanel{
+	margin-top:16px;margin-bottom:16px;
+}
+.mycard-4,.myhover-shadow:hover{
+	box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
+}
+.mycontent,.myauto{
+	margin-left:auto;margin-right:auto
+}
+.mycontent{
+	max-width:980px
+}
+.myauto{
+	max-width:1140px
+}
+.myred,.myhover-red:hover{
+	color:#fff!important;background-color:#f44336!important
+}
+.myyellow,.myhover-yellow:hover{
+	color:#000!important;background-color:#ffeb3b!important
+}
+.mypadding-16{padding-top:16px!important;padding-bottom:16px!important}.mypadding-24{padding-top:24px!important;padding-bottom:24px!important}
+.mypadding-32{padding-top:32px!important;padding-bottom:32px!important}.mypadding-48{padding-top:48px!important;padding-bottom:48px!important}
+.mypadding-64{padding-top:64px!important;padding-bottom:64px!important}
