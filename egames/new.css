@@ -11,7 +11,11 @@ p.a{
 			font-family:frijole;
 			font-size: 20px;
 			color:skyblue;
-		}
+}
+p.b{
+	font-family: monoton;
+	color:#050202;
+}
 div.i{
   			 float: left;
   			width: 30%;
@@ -136,3 +140,61 @@ background-color: white;
 .mypadding-16{padding-top:16px!important;padding-bottom:16px!important}.mypadding-24{padding-top:24px!important;padding-bottom:24px!important}
 .mypadding-32{padding-top:32px!important;padding-bottom:32px!important}.mypadding-48{padding-top:48px!important;padding-bottom:48px!important}
 .mypadding-64{padding-top:64px!important;padding-bottom:64px!important}
+.myborder {
+    border-width:5px;  
+    border-style:inset;
+}
+a.mylink:link {
+  color: red;
+}
+
+/* visited link */
+a.mylink:visited {
+  color: green;
+}
+
+/* mouse over link */
+a.mylink:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a.mylink:active {
+  color: blue;
+}
+#mySidenav a {
+  position: fixed;
+  right: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px 0 0 0;
+	z-index: 5;
+}
+
+#mySidenav a:hover {
+  right: 0;
+}
+
+#about {
+  top: 240px;
+  background-color: #4CAF50;
+}
+
+#blog {
+  top: 300px;
+  background-color: #2196F3;
+}
+
+#projects {
+  top: 360px;
+  background-color: #f44336;
+}
+
+#contact {
+  top: 420px;
+  background-color: #555
+}
