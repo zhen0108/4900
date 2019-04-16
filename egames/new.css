@@ -162,39 +162,25 @@ a.mylink:hover {
 a.mylink:active {
   color: blue;
 }
-#mySidenav a {
+.sidenav {
+  width: 130px;
   position: fixed;
-  right: -80px;
-  transition: 0.3s;
-  padding: 15px;
-  width: 100px;
+  z-index: 1;
+  top: 200px;
+  left: 10px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 5px 10px 5px 16px;
   text-decoration: none;
-  font-size: 20px;
-  color: white;
-  border-radius: 10px 0 0 0;
-	z-index: 5;
+  font-size: 15px;
+  color: #2196F3;
+  display: block;
 }
 
-#mySidenav a:hover {
-  right: 0;
-}
-
-#about {
-  top: 240px;
-  background-color: #4CAF50;
-}
-
-#blog {
-  top: 300px;
-  background-color: #2196F3;
-}
-
-#projects {
-  top: 360px;
-  background-color: #f44336;
-}
-
-#contact {
-  top: 420px;
-  background-color: #555
+.sidenav a:hover {
+  color: #064579;
 }
