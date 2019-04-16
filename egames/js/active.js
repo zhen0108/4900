@@ -43,10 +43,10 @@
             margin: 0,
             loop: true,
             nav: true,
-            navText: ['Prev Picture', 'Next Picture'],
+            navText: ['<', '>'],
             dots: false,
             autoplay: true,
-            autoplayTimeout: 7000,
+            autoplayTimeout: 5000,
             smartSpeed: 1000
         });
 
