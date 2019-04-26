@@ -1,5 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
+
 * {
   margin: 0;
   padding: 0; }
@@ -163,38 +164,41 @@ a.mylink:active {
   color: blue;
 }
 #mySidenav a {
-  position: fixed;
-  right: -80px;
+  position:fixed;
+  left: -10px;
   transition: 0.3s;
   padding: 15px;
-  width: 100px;
+  width: 90px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 10px;
   color: white;
-  border-radius: 10px 0 0 0;
-	z-index: 5;
+  border-radius: 0 5px 5px 0;
+	z-index:10;
 }
 
 #mySidenav a:hover {
-  right: 0;
+  left: 0;
 }
-
-#about {
-  top: 240px;
+#why {
+  top: 140px;
+  background-color:cadetblue;
+}
+#test {
+  top: 190px;
   background-color: #4CAF50;
 }
 
-#blog {
-  top: 300px;
+#photo {
+  top: 240px;
   background-color: #2196F3;
 }
 
-#projects {
-  top: 360px;
+#faqs {
+  top: 290px;
   background-color: #f44336;
 }
 
-#contact {
-  top: 420px;
+#host {
+  top: 340px;
   background-color: #555
 }
