@@ -14,13 +14,34 @@ p.a{
 			color:skyblue;
 }
 p.b{
-	font-family: monoton;
+	font-family:Georgia;
+	font-size: 18px;
 	color:#050202;
+}
+p.c{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 20px;
+	color:#0A0909;
+}
+hr.a{
+	 border: 1px solid gray;
 }
 div.i{
   			 float: left;
   			width: 30%;
   			padding: 2%;
+}
+li.a{
+	margin-left: 50px;
+	color:black;
+	font-size: 17px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif" ;
+}
+h12 {
+text-shadow: 0px -2px 0px blACK,
+0px 2px 3px black;
+	color: black;
+	font-size: 30px;
 }
 h10{
 	font-family: "fredericka-the-great";
@@ -29,6 +50,20 @@ h10{
 h9{
 	color:black;
 	font-size: 40px;
+}
+h11{text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+	color:black;
 }
 #myDIV {
  float: right;
@@ -91,9 +126,9 @@ background-size: 100% 1.2em;
 }
 /* Create three equal columns that floats next to each other */
 .column {
-  float: left;
-  width: 33.33%;
-  padding: 15px;
+  float: right;
+  width: 50%;
+  padding-left: 105px;
 }
 
 /* Clear floats after the columns */
@@ -201,4 +236,33 @@ a.mylink:active {
 #host {
   top: 340px;
   background-color: #555
+}
+.mycolumn {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.mycolumn.side {
+  width: 10%;
+}
+
+/* Middle column */
+.mycolumn.middle {
+  width: 90%;
+}
+
+/* Clear floats after the columns */
+.myrow:after {
+  content: "";
+  display: table;
+  clear: both;
+	
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .mycolumn.side, .mycolumn.middle {
+    width: 100%;
+  }
 }
