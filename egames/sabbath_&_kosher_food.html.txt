@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Study in China</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/bc.jpg">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+        <!-- Top Header Area -->
+        <div class="top-header-area">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12 d-flex align-items-center justify-content-between">
+                        <!-- Logo Area -->
+                        <div class="logo">
+                            <a href="index.html"><img src="img/core-img/logo.jpg" alt=""></a>
+                        </div>
+
+                        <!-- Search & Login Area -->
+                        <div class="search-login-area d-flex align-items-center">
+                            <!-- Top Search Area -->
+                            <div class="top-search-area">
+                                <form action="index.html" method="post">
+                                    <input type="search" name="top-search" id="topSearch" placeholder="Search">
+                                    <button type="submit" class="btn"><i class="fa fa-search"></i></button>
+                                </form>
+                            </div>
+                            <!-- Login Area -->
+                            <div class="login-area">
+                                <a href="#"><span>Login / Register</span> <i class="fa fa-lock" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navbar Area -->
+        <div class="egames-main-menu" id="sticker">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="egamesNav">
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classynav">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About</a>
+                                        <ul class="dropdown">
+                                            <li><a href="#">Why China</a></li>
+                                            <li><a href="#">Testimonial</a></li>
+                                            <li><a href="#">Photos</a></li>
+                                            <li><a href="#">FAQs</a></li>
+                                            <li><a href="#">Host</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="program.html">Program</a>
+                                        <ul class="dropdown">
+                                            <li><a href="#">Announcement</a></li>
+                                            <li><a href="#">Itinerary</a></li>
+                                            <li><a href="#">Coursework</a></li>
+                                            <li><a href="#">Side Trips</a></li>
+                                            <li><a href="#">Room & Board</a></li> 
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Apply</a>
+                                        <ul class="dropdown">
+                                            <li><a href="Apply-how to apply.html">How to Apply</a></li>
+                                            <li><a href="cost & payment.html">Cost & Payment</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="financial_aid.html">Financial Aid</a>
+                                        <ul class="dropdown">
+                                            <li><a href="financial_aid.html">Financial Aid</a></li>
+					    <li><a href="#">Scholarships</a></li>
+                                            <li><a href="#">Student Loans</a></li>
+                                        </ul>
+                                    </li>
+									<li><a href="passport_&_visa.html">Travel Info</a>
+                                        <ul class="dropdown">
+                                            <li><a href="passport_&_visa.html">Passport & Visa</a></li>
+                                            <li><a href="trip_faq's.html">Trip FAQ's</a></li>
+											<li><a href="sabbath_&_kosher_food.hmtl">Sabbath & KosherFood</a></li>
+											<li><a href="halal_food.hmtl">Halal Food</a></li>
+                                        </ul>
+                                    </li>
+									
+									<li><a href="contact.html">Contact</a>
+									<ul class="dropdown">
+										<li><a href="contact.html"> Contact Us</a></li>
+                                            <li><a href="https://www.facebook.com/cunybc.chinaprogram"> visit our Facebook</a></li>
+                                            <li><a href="mailto:CUNYinChina@brooklyn.cuny.edu">Email us </a></li>
+                                        </ul></li>
+                                </ul>
+							</div>
+                            <!-- Nav End -->
+                        </div>
+
+                        <!-- Top Social Info -->
+                        <div class="top-social-info">
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Behance"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Breadcrumb Area Start ##### -->
+    <div class="breadcrumb-area bg-img bg-overlay" style="background-image: url(http://depthome.brooklyn.cuny.edu/bc-china/images/heading_images/sabbath_and_kosher_food.jpg);">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <!-- Breadcrumb Text -->
+                <div class="col-12">
+                    <div class="breadcrumb-text">
+                        <h2>Sabbath & Kosher Food</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Breadcrumb Area End ##### -->
+	
+    <section class="travel-info-area section-padding-100">
+        <div class="container">
+			<!--<body style= "background-color:#FFFF00"></body>  optional-->
+				
+            <div class="row align-items-center">
+				<style>
+					div.travel-info{
+						margin: 1%;
+					}
+				</style>
+				<div class="travel-info">
+				<p>Many Sabbath-observant students with varying travel and diet restrictions participated in our programs in the past. Those students all handled their needs well and enjoyed the trip like everyone else.<br>
+				If you are Sabbath-observant and want to enroll in the study in China program, you should know that accommodations are possible. The program is not to be missed and it is definitely worth any minor challenges you may have in planning.<br>
+				We understand and respect people's faiths and always try to help.</p></div>
+                <div class="col-12 col-md-6">
+                    <div class="travel-info-area style-2 mt-70">
+                        <div class="game-content">
+                            <p><font size="+3" color="blue">Travel:</font><br>
+							The program director is always helpful by working with the students in planning around their Sabbath observance.  These students never have to be on international flights or travel in or between cities during the Sabbath.<br>
+							The past students did not experience any problems in planning around the Sabbath and still were able to fulfill all requirements of the program.<br>
+							When we have Sabbath-observant students, the program will try to book the group’s international flights away from hours of Sabbath-observance, to avoid flying from Friday evening to Saturday evening.<br>
+							If, for some special reasons, the group has to depart for China during Friday and Saturday, the program will arrange for Sabbath-observant students to fly to Beijing one or two days earlier (this may involve a small extra cost for the hotel, etc.).  The local travel agency will help book the hotel and arrange airport pick-up upon arrival if needed. And the program director also arrives in Beijing a few days before the group.<br>
+							In some cases, the travel agency will try to arrange the group itinerary away from the hours of Sabbath-observance, if possible.</p>
+                            <image src = "http://depthome.brooklyn.cuny.edu/bc-china/images/sabbath_and_kosher_food/pic_2.jpg" alt ="kosher-food1" style ="width:600px;height:400px"> </image>
+                        </div>				
+                    </div>
+                </div>
+				
+                <div class="col-12 col-md-5">
+                    <div class="egames-barfiller">
+             			 <image src = "http://depthome.brooklyn.cuny.edu/bc-china/images/sabbath_and_kosher_food/pic_1.jpg" alt ="kosher-food2" style ="width:450px;height:300px"> </image>
+                       	<p><font size="+3" color="blue">Kosher:</font><br>
+                        Kosher food is a bit of a tougher question but the past students also managed it quite fine.<br>
+						Getting delivery from Chabads is not a difficult thing in most of the cities (e.g., Beijing, Shanghai, and Hong Kong). In the majority of the cities included in the program (Shanghai, Beijing, Hong Kong) there are active Chabads that have a restaurant and usually a shop that sells some kosher items.<br>
+						Nanjing is a city where the program stays for about 2 weeks, but it is only one hour away from Shanghai by high-speed trains. It takes just one quick phone call or an email to order delivery from Chabads in Shanghai to Nanjing.<br>
+						During our stay in Nanjing, at the request of the program director, the hotel can give Sabbath-observant students permission to cook in the kitchen with their own utensils.
+						In each of those cities (especially in Nanjing), there are large Walmart stores that carry some American products that are kosher (no meat, however). When traveling with the group, such students sometimes try to eat rice and vegetables with the group, or eat at some vegetarian restaurants.<br>
+						In the past, students brought with them a good amount of kosher items that were vacuum-sealed and non-perishable. Although it was a bit of an inconvenience to have a separate piece of luggage to transport, yet it definitely worked out well, as the students were always able to resort to what they had brought with them.<br>
+						Overall, with proper planning ahead of time while in NY and looking into the Chabad locations relative to the cities, it is possible to do the trip "kosher style."</p>
+                    </div>
+                </div>
+            </div>
+				<p><font size="+3" color="blue">More Questions?</font><br>
+				If you still have questions, we can try to connect you with some students/faculty who went on our trip in the past. They will be happy to share their experience with you.	
+				</p></div>
+        </div>  
+	</section>
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area">
+        <!-- Man Footer Area -->
+        <div class="main-footer-area section-padding-100-0">
+            <div class="container">
+                <div class="row">
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget mb-70 wow fadeInUp" data-wow-delay="100ms">
+                            <div class="widget-title">
+                                <a href="index.html"><img src="img/core-img/logo.jpg" alt=""></a>
+                            </div>
+                            <div class="widget-content">
+                                 <p class="a">Learn while exploring five most renowned and beautiful Chinese Cities</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget mb-70 wow fadeInUp" data-wow-delay="300ms">
+                            <div class="widget-title">
+                                <h4>Office Hours</h4>
+                            </div>
+                            <div class="widget-content">
+                                <nav>
+                                    <ul>
+                                        <li><a href="#">Office:3439 Boylan Hall</a></li>
+                                        <li><a href="#">office Hours:</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget mb-70 wow fadeInUp" data-wow-delay="500ms">
+                            <div class="widget-title">
+                                <h4>Usefull Links</h4>
+                            </div>
+                            <div class="widget-content">
+                                <nav>
+                                    <ul>
+                                        <li><a href="#">Testimanials</a></li>
+                                        <li><a href="#">Travel Info</a></li>
+                                        <li><a href="#">Apply</a></li>
+                                        <li><a href="#">Financial Aid</a></li>
+                                        <li><a href="#">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget mb-70 wow fadeInUp" data-wow-delay="700ms">
+                            <div class="widget-title">
+                                <h4>Contact</h4>
+                            </div>
+                            <div class="widget-content">
+                                <nav>
+                                    <ul>
+                                       <li><a href="https://www.google.com/maps/place/Boylan+Hall/@40.6317787,-73.9538368,18z/data=!4m8!1m2!2m1!1s3439+boylan+hall+brooklyn+college!3m4!1s0x89c244b333746ce9:0xe0a5e958752dd437!8m2!3d40.6321152!4d-73.9518618"><span class="flaticon-placeholder"></span><span class="text">&nbsp;2502 Campus Rd, Brooklyn, NY 11210</span></a></li>
+	                				   <li><a href="#"><span class="flaticon-whatsapp-logo"></span><span class="text">&nbsp;718-951-5225</span></a></li>
+	               					   <li><a href="#"><span class="flaticon-close-envelope"></span><span class="text">&nbsp;shumingl@brooklyn.cuny.edu</span></a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </footer>
+    <!-- ##### Footer Area End ##### -->
+
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+</body>
+
+</html>
